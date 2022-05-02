@@ -28,6 +28,72 @@
   color: #61dafb;
 }
 
+.banner-card{
+  width: 100%;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  height: 70vh;
+  position: relative;
+
+}
+.banner-title{
+  position: absolute;
+  top: 45vh;
+  color: white;
+  left:5vw;
+}
+.banner-img{
+  height: 70vh;
+  width: 100%;
+}
+.banner-text{
+  position: absolute;
+  color:white;
+  top: 50vh;
+  height: 4.5rem;
+  left: 5vw;
+
+}
+.text-center{
+  align-items: center;
+  margin-top: 1rem;
+}
+.movies-list{
+  display: flex;
+  padding: 1rem;
+  justify-content: centre;
+  flex-wrap: wrap;
+  margin-left: 5rem;
+
+}
+.movie-card{
+  margin: 1rem;
+  width: 20vw;
+  color: white;
+  position: relative;
+
+}
+.movie-title{
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+.movies-button{
+  position: absolute;
+  bottom: 2.5rem;
+  left: 5rem;
+  /* left: 4rem;
+  width: 12rem; */
+}
+.movie-release{
+  position: absolute;
+  top: 2rem;
+  left: 1rem;
+  color: #61dafb;
+  /* padding: 0.5rem; */
+  margin-top: 2rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
